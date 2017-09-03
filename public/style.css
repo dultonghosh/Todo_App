@@ -1,0 +1,69 @@
+div.outerMainBox{
+    height: auto;
+    width: 1070px;
+    left: 100px ;
+    top: 0px;
+    position: absolute;
+}
+div.heading{
+    background-color: lightgoldenrodyellow;
+    width: 1060px;
+    height: 60px;
+    position: relative;
+}
+div.typeTodo{
+    position: relative;
+    height:auto;
+    width:1050px;
+    background-color: white;
+    padding-left: 10px;
+    padding-top:00px;
+    padding-bottom:10px;
+}
+
+/*Line Div*/
+div.lineBreak{
+    background-color: black;
+    height: 1px;
+    width: 510px;
+    position: relative;
+}
+
+/*Div for visibility of complte Todo and delted Todo Item*/
+.hidden_label{
+    float: right ;
+    margin-right: 10% ;
+    text-decoration: underline ;
+    color: blue;
+}
+
+/*Cross X label to delete Todos*/
+.delete_label{
+    color : red;
+    float : right;
+    margin-right : 20%;
+}
+
+/*Active Todos*/
+.active_status{
+    padding: 10px;
+}
+
+/*Completed Todos*/
+.complete_status{
+    color : green;
+    text-decoration : line-through;
+    padding: 10px;
+}
+
+/*Deleted Todos*/
+.delete_status {
+    color: red;
+    text-decoration: line-through;
+    margin-left: 20%;
+}
+
+/*CheckBox*/
+.checkbox{
+    margin-left: 20%;
+}
